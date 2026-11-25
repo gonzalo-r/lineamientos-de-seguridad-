@@ -149,6 +149,34 @@ Restringir los directorios y ubicaciones de almacenamiento.
 
 Evitar la ejecución de archivos recibidos desde fuentes externas sin validación.
 
+13. Seguridad en Inteligencia Artificial (IA)
+
+En caso de que la solución incorpore funcionalidades basadas en Inteligencia Artificial, modelos de lenguaje (LLM), asistentes inteligentes o servicios externos de IA, deberán contemplarse los siguientes lineamientos:
+
+Uso autorizado: utilizar únicamente plataformas, modelos y servicios de IA autorizados por la organización.
+
+Protección de datos: no enviar información confidencial, datos personales, credenciales, secretos o información sensible a modelos o servicios externos sin autorización.
+
+Gestión de entradas (Prompt Injection): implementar controles para prevenir que instrucciones maliciosas o manipuladas alteren el comportamiento esperado del modelo.
+
+Validación de respuestas: no confiar automáticamente en las respuestas generadas por modelos de IA. Validar su contenido antes de utilizarlo en procesos, operaciones o decisiones.
+
+Control de salidas: validar y sanitizar las respuestas generadas antes de procesarlas, ejecutarlas o incorporarlas a otros componentes de la aplicación.
+
+Control de privilegios: limitar los permisos y capacidades de los modelos y agentes de IA, aplicando el principio de mínimo privilegio.
+
+Integración segura: proteger las conexiones entre la aplicación, los modelos de IA, APIs, plugins y servicios externos mediante mecanismos seguros de autenticación y autorización.
+
+Gestión de información y contexto: evitar que los modelos accedan a información, documentos o recursos fuera del alcance autorizado.
+
+Protección contra abuso: implementar controles de consumo, límites de solicitudes y mecanismos para prevenir usos indebidos o agotamiento de recursos.
+
+Trazabilidad: registrar las interacciones y operaciones relevantes de los componentes de IA, evitando almacenar información sensible innecesaria.
+
+Dependencias y modelos: verificar la procedencia, confiabilidad y seguridad de los modelos, librerías y componentes utilizados.
+
+Supervisión humana: establecer mecanismos de revisión y aprobación humana cuando las respuestas o acciones de IA puedan generar impactos relevantes en el negocio, los usuarios o la información.
+
 Consideraciones generales
 
 Los lineamientos mencionados constituyen las prácticas mínimas de desarrollo seguro que deberán contemplarse durante la construcción del producto.
